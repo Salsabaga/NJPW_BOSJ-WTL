@@ -1,16 +1,26 @@
 body{
     background-color: lightblue;
+    
     margin: 0;
+    display: grid;
+    font-family: "Cabin", sans-serif;
+}
+
+.header{
     display: flex;
-    flex-direction: column;
+    justify-content: flex-end;
+    background-color: red;
+    height: 50px;
 }
 
-nav{
-    text-align: center;
-}
-
-nav ul{
-    padding: 0;
+.header a{
+    padding: 1rem 3rem;
+    border-style: none solid none none;
+    border-width: 1px;
+    border-color: white;
+    color: white;
+    z-index: 0;
+    
 }
 
 .container{
@@ -18,26 +28,30 @@ nav ul{
     flex-direction: row;
     align-items: stretch;
     height: 825px;
-    
+
 }
 
 .super-junior-container{
-    background-image: url("https://www.tpww.net/wp-content/uploads/2018/11/njpw-world-tag-league-2018-logo.jpg");
+    background-image: url("https://www.postwrestling.com/wp-content/uploads/2019/05/NJPW-Best-Of-The-Super-Jr.26-2019.jpg");
     flex-grow: 2;
     color: white;
+
 }
 
 .seperator{
-    background-color: black;
-    width: 1%;
+    background-color:  rgb(167, 14, 14);
+    width: 2%;
 }
 
 .tag-league-container{
-    background-color: burlywood;
+    background-image: url("https://www.tpww.net/wp-content/uploads/2018/11/njpw-world-tag-league-2018-logo.jpg");
     flex-grow: 2;
 }
 
 footer{
     background-color: black;
+    color: white;
+    height: 84px;
+    text-align: center;
     
 }
