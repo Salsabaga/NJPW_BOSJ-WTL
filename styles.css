@@ -6,22 +6,35 @@ body{
     font-family: "Cabin", sans-serif;
 }
 
-.header{
+#header-nav{
     display: flex;
     justify-content: flex-end;
-    background-color: red;
+    background-color:#cf1b1b;
     height: 50px;
+    margin: 0;
+    list-style: none;
 }
 
-.header a{
-    padding: 1rem 3rem;
+li {
+    padding: 1rem 2.5rem;
     border-style: none solid none none;
     border-width: 1px;
     border-color: white;
-    color: white;
     z-index: 0;
-    
 }
+
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: auto;
+}
+
+#header-nav li:hover{
+    background-color: #423144;
+    transition: 250ms linear;
+}
+
+
 
 .container{
     display: flex;
@@ -39,8 +52,8 @@ body{
 }
 
 .seperator{
-    background-color:  rgb(167, 14, 14);
-    width: 2%;
+    background-color:  #900d0d;
+    width: 2.5%;
 }
 
 .tag-league-container{
@@ -49,7 +62,7 @@ body{
 }
 
 footer{
-    background-color: black;
+    background-color: rgb(44, 42, 42);
     color: white;
     height: 84px;
     text-align: center;
