@@ -3,9 +3,284 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <title>Schedule</title>
 </head>
 <body>
-    
+    <ul id="header-nav">
+        <li> 
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="#">News</a>
+        </li>
+        <li>
+            <a href="#">Wrestlers</a>
+        </li>
+        <li>
+            <a href="#">Tickets</a>
+        </li>
+        <li>
+            <a href="#">Contact Us</a>
+        </li> 
+    </ul>
+    <div id="grid-container-one">
+        <div id="table">
+            <div class="titles">
+                <h1>STANDINGS</h1>
+            </div>
+            <table >
+                <thead>
+                    <tr>
+                        <th>
+                          Participant
+                        </th>
+                        <th>
+                            Matches
+                        </th>
+                        <th>
+                            W | L | D
+                        </th>
+                        <th>
+                            Points
+                        </th>
+
+                      </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="wrestler-row">
+                            Ryusuke Taguchi
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0-0-0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="wrestler-row">
+                            Master Wato
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0-0-0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="wrestler-row">
+                            SHO
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0-0-0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="wrestler-row">
+                            Robbie Eagles
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0-0-0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="wrestler-row">
+                            Hiromu Takahashi
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0-0-0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="wrestler-row">
+                            BUSHI
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0-0-0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="wrestler-row">
+                            El Desperado
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0-0-0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="wrestler-row">
+                            Kanemaru Yoshinobu
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0-0-0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="wrestler-row">
+                            DOUKI
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0-0-0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="wrestler-row">
+                            Taiji Ishimori
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0-0-0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="schedule">
+            <div class="titles">
+                <h1>FIXTURES & RESULTS</h1>
+            </div>
+            <div id="fixtures-details">
+                <div id="main-details">
+                    <div id="details">
+                        <div class="dropdown">
+                            <button onclick="buttonClick()" class="dropdown-btn">Day#</button>
+                            <div id="working-dropdown"class="dropdown-content">
+                                <a href="#">Day#</a>
+                                <a href="#">Day#</a>
+                                <a href="#">Day#</a>
+                                <a href="#">Day#</a>
+                                <a href="#">Day#</a>
+                                <a href="#">Day#</a>
+                                <a href="#">Day#</a>
+                                <a href="#">Day#</a>
+                                <a href="#">Day#</a>
+                            </div>
+                        </div>
+                        
+                        <p>Location</p>
+                        <p>Date</p>
+                    </div>
+                </div>
+                <div class="fixture">
+                    <div>
+                        Taiji Ishimori
+
+                    </div>
+                    <div>
+                        VS
+                    </div>
+                    <div>
+                        Kanemaru Yoshinobu
+                    </div> 
+                </div>
+                <div class="fixture">
+                    <div>
+                        Wrestler1
+                    </div>
+                    <div>
+                        VS
+                    </div>
+                    <div>
+                        Wrestler2
+                    </div> 
+                </div>
+                <div class="fixture">
+                    <div>
+                        Wrestler1
+                    </div>
+                    <div>
+                        VS
+                    </div>
+                    <div>
+                        Wrestler2
+                    </div> 
+                </div>
+                <div class="fixture">
+                    <div>
+                        Wrestler1
+                    </div>
+                    <div>
+                        VS
+                    </div>
+                    <div>
+                        Wrestler2
+                    </div> 
+                </div>
+                <div class="fixture">
+                    <div>
+                        Wrestler1
+                    </div>
+                    <div>
+                        VS
+                    </div>
+                    <div>
+                        Wrestler2
+                    </div> 
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Made By Danny Baldeon Abril</p>
+    </footer>
 </body>
 </html>
